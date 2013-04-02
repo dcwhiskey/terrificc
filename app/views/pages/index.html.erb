@@ -1,0 +1,11 @@
+<% unless user_signed_in? %>
+	<div class="well">
+		<h2>Welcome to Terrifi.cc</h2>
+		<h3>
+			A place to refine, share and collect feedback on company ideas.
+		</h3>
+		<p> 
+			<%= link_to "Get Started", "#", class: "btn btn-primary btn-large" %>
+		</p>
+	</div>
+<% end %>

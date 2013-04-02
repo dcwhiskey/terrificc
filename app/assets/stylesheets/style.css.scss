@@ -1,0 +1,42 @@
+
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: gray;
+
+@import "bootstrap";
+
+
+.navbar-inner {
+	position: relative top;
+	z-index: 999;
+	border-bottom: solid 2px #777;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	background-image: url('http://garrengivens.com/images/whitey.png');
+}
+
+body {
+	padding-top: 100px;
+}
+
+@import "bootstrap-responsive";
+
+.footer {
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+	overflow: auto;
+	width: 100%;
+	background-color: #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	a {
+		color: #336699;
+	}
+}
