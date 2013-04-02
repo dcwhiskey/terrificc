@@ -1,5 +1,14 @@
 Terrificc::Application.routes.draw do
 
+  authenticated :user do
+    root :to => 'pages#home'
+  end
+
+  resources :posts do
+    resources :comments
+  end
+
+
   devise_for :users
   resources :users
 
